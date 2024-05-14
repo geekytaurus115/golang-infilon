@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "8f44ca6b-aa67-46b6-8b87-90ea4d9ff42a",
+		"name": "GolangTaskInfilon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21787862"
+	},
+	"item": [
+		{
+			"name": "CreatePerson",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"MAMATA SHEE\",\n    \"phone_number\": \"123-456-7890\",\n    \"city\": \"Sacramento\",\n    \"state\": \"CA\",\n    \"street1\": \"112 Main St\",\n    \"street2\": \"Apt 12\",\n    \"zip_code\": \"12345\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/person"
+			},
+			"response": []
+		},
+		{
+			"name": "GetPersonById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/person/6"
+			},
+			"response": []
+		}
+	]
+}
