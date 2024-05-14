@@ -20,7 +20,7 @@
 						}
 					}
 				},
-				"url": "localhost:8080/person"
+				"url": "localhost:8080/person/create"
 			},
 			"response": []
 		},
@@ -29,7 +29,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "localhost:8080/person/6"
+				"url": "localhost:8080/person/1/info"
 			},
 			"response": []
 		}
